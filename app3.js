@@ -43,8 +43,8 @@ let students = [
     }
 ];
 
-students.forEach((student, index) => {
-    console.log(`นักศึกษา : ${index}, Name : ${student.name}, GPAX : ${student.grade}`);
+students.forEach((student) => {
+    console.log(`${student.id}  Name : ${student.name}, GPAX : ${student.grade}`);
 });
 
 function showStudentCount() {
