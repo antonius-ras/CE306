@@ -55,6 +55,5 @@ function showProductSummary() {
     console.log(`ราคารวมสุทธิหลังส่วนลด: ${totalPrice} บาท`);
     console.log("==========================================");
 }
-
 showProductCount();
 showProductSummary();
