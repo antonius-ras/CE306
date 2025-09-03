@@ -34,7 +34,7 @@ function filterPassedStudents() {
 
     students.forEach(student => {
         if (student.score >= passingScore) {
-            console.log(`Student ${student.name} passed with score ${student.score}`);
+            console.log(`นาย ${student.name} สอบผ่านด้วยคะแนน ${student.score}`);
         }
     });
 }
